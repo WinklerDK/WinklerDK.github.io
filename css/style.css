@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'opensans_lightitalic';
+    src: url('../fonts/opensans_lightitalic.woff');
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+ font-family: 'opensans_lightitalic';
+}
+
+h1{
+    font-family: serif;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+article {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-wrapper {
+    width: 16%;
+    float:left;
+    padding-right: 12%;
+    padding-bottom: 10px;
+    
+}
+
+.image-wrapper img {
+    width: 150%;
+}
+
+.image-wrapper span {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.span {
+    background-color: black;
+}
+
+.span2 {
+    text-decoration-color: black;
+}
+
+.article-meta {
+    font-family: sans-serif;
+    color: black;
+    font-size: 12px;    
+}
+
+.image-wrapper2 {
+     width: 15%;
+    float:left;
+    padding-right: 12%;
+    padding-bottom: 10px;
+}
+
+.image-wrapper2 img {
+    width: 80%;
+}
+
+p{
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+}
+
+.copyright {
+    float: left;
+}
+
+    .headertext {
+         color: white;
+        display: inline-block;
+        margin-left: 7%;
+        position: absolute;
+        margin-top: 2%;
+    }
+
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color:black;
+    display: inline-block;
+}
+.articlep {
+    font-family: sans-serif;
+}
+
+img {
+    margin-top: 1%;
+    margin-left: 12%;
+    padding: 5px;
+   background-color: black;
+    width: 13%
+}
+
+#wrap {
+    width: 80%;
+    min-height: 100%;
+    position: relative;
+}
+
+.container1 {
+    width: 35%;
+   float: left;
+    text-align: right;
+    margin-left: 5%;
+}
+
+.container2 {
+    width: 35%;
+  float: right;
+    text-align: right;
+}
+
+
+
+.mycrew {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.skatespots {
+    width: 140%;
+    margin-left: 0%;
+}
+
+.skatespots2 {
+    width: 92%;
+    margin-left: 0%;
+
+}
+
+.articleimages {
+     width: 80%;
+    margin-left: 0%;
+}
+
+    .socialmedia{
+        width: 15%;
+        float: right;
+        margin-top: 2%;
+        margin-right: 12%;
+    }
+
+body{
+    background-color: grey;
+    background-image: url("../images/skatetexture8.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+.menu {
+    font-family: 'Boogaloo', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    background: black;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    border: 2px grey solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: grey;
+}
+
+.sidebar-col {
+    float: right;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+}
+
+.sidebar-col2 {
+    text-align: center;
+}
+
+.sidebar-col2 a {
+    color: black;
+}
+
+/* Full-width input fields */
+.signupform {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.search {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    width: 10%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+   -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+}
+
+.search:focus {
+    width: 25%;
+    float: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 5%;
+    margin-top: 10%;
+}
+
+.footer a {
+    color: white;
+    
+}
+
+.footer-nav {
+    list-style: none;
+    float: right;
+    
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li + li {
+    margin-left: 10px;
+}
+
+.sidebar-nav a {
+     text-decoration: none;
+    border: 2px grey solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-right: 7%;
+}
+
+.sidebar-nav li {
+    margin-top: 10px;
+}
+
+.sidebar-nav a:hover {
+    background-color: grey;
+}
+
+.contact {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 20%;
+}
