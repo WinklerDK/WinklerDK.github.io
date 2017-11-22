@@ -237,9 +237,10 @@ iframe {
     padding-bottom: 5%;
 }
 
-.voreshistorie {
+.overskrift {
     display: none;
 }
+
 
 @media screen and (min-width: 769px) {
     .overlay {
@@ -415,6 +416,7 @@ iframe {
         width: 50%;
         margin-left: 25%;
         margin-top: 1%;
+        display: inherit;
     }
     
     .transbox {
@@ -432,10 +434,6 @@ iframe {
     .copyright {
         padding-top: 2%;
         padding-bottom: 2%;
-    }
-    
-    .voreshistorie {
-        display: inherit;
     }
     
     iframe {
