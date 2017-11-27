@@ -269,7 +269,7 @@ iframe {
     }
     
    .index {
-    background: url(../images/burgerdekstop1.jpg);
+    background: url(../images/burgerdesktop2.jpg);
     background-size: 100%;
        background-repeat: no-repeat;
 }
@@ -424,6 +424,7 @@ iframe {
         background-color: black;
         opacity: 0.8;
         margin-left: 10%;
+        margin-top: 17%;
     
     }
     
