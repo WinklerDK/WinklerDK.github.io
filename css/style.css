@@ -380,6 +380,7 @@ iframe {
     .h21 {
     margin-left: 10%;
     font-size: 200%;
+    margin-top: 3%;
     
 }
     .p1 {
@@ -440,5 +441,10 @@ iframe {
     iframe {
         display: inherit;
         display: inline-block;
+    }
+    
+    .overskrift {
+        display: inherit;
+        margin-top: 2%;
     }
 }
